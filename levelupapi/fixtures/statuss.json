@@ -1,0 +1,24 @@
+
+[
+    {
+        "model": "levelupapi.status",
+        "pk": 1,
+        "fields": {
+            "label": "Enrolling"
+        }
+    },
+    {
+        "model": "levelupapi.status",
+        "pk": 2,
+        "fields": {
+            "label": "Full"
+        }
+    },
+    {
+        "model": "levelupapi.status",
+        "pk": 3,
+        "fields": {
+            "label": "Closed"
+        }
+    }
+]

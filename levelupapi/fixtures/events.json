@@ -1,0 +1,21 @@
+
+[
+    {
+        "model": "levelupapi.event",
+        "pk": 1,
+        "fields": {
+            "game": 1,
+            "eventDate": "2021-12-17T18:56:38.074Z",
+            "status": 2
+        }
+    },
+    {
+        "model": "levelupapi.event",
+        "pk": 2,
+        "fields": {
+            "game": 2,
+            "eventDate": "2022-01-17T19:09:37.707Z",
+            "status": 1
+        }
+    }
+]
