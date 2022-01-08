@@ -4,6 +4,9 @@ from levelupapi.models.gamer import User
 
 
 class Game(models.Model):
-    name = models.CharField(max_length=55)
-    gametype = models.ForeignKey(GameType, on_delete=models.CASCADE, related_name='games')
-    createdBy = models.ForeignKey(User, on_delete=models.CASCADE, related_name='users')
+    title = models.CharField(max_length=55)
+    maker = models.CharField(max_length=55, null=True)
+    gamer = models.ForeignKey(User, on_delete=models.CASCADE, related_name='games')
+    game_type = models.ForeignKey(GameType, on_delete=models.CASCADE, related_name='games')
+    number_of_players = models.IntegerField()
+    skill_level = models.IntegerField()
